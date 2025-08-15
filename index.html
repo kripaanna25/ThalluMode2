@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Thallu Mode</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="card">
+    <h2 id="caption">ThalluMode</h2>
+
+    <div class="stage">
+      <!-- Wrapper handles mouse tilt; img handles slap animation -->
+      <div id="tilt" class="tilt">
+        <img id="face" src="face.png" alt="Face" draggable="false" />
+      </div>
+    </div>
+
+    <button id="slapBtn" class="btn">👋 Slap!</button>
+    <audio id="slapSound" src="slap.mp3" preload="auto"></audio>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
